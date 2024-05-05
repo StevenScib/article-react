@@ -13,4 +13,4 @@ function ArticleDetail({ article, onClose }) {
   );
 }
 
-export default ArticleDetail;
+export default ArticleDetails;
