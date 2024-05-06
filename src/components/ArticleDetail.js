@@ -4,8 +4,7 @@ import React from 'react';
 function ArticleDetail({ article, onClose }) {
   return (
     <div>
-      <h2>Article Details</h2>
-      <h3>{article.title}</h3>
+      <h2>{article.title}</h2>
       <p>{article.body}</p>
       <p>Published: {article.published ? 'Yes' : 'No'}</p>
       <button onClick={onClose}>Close</button>
